@@ -15,22 +15,22 @@ const Index = () => {
       title: "E-Commerce Platform",
       description: "Full-stack MERN application with user authentication, payment integration, and admin dashboard.",
       tech: ["React.js", "Node.js", "MongoDB", "Express.js", "Stripe"],
-      github: "#",
-      live: "#"
+      github: "https://github.com/adnanfrd/",
+      live: "https://www.ayurvedicherbalproducts.com/"
     },
     {
-      title: "Task Management App",
+      title: "Event Management App",
       description: "Collaborative project management tool built with Next.js and real-time updates.",
       tech: ["Next.js", "TypeScript", "Prisma", "Socket.io"],
-      github: "#",
-      live: "#"
+      github: "https://github.com/adnanfrd/",
+      live: "https://eventbookingandmanage.vercel.app/"
     },
     {
       title: "AI-Powered Chat Application",
       description: "Real-time chat app with AI integration built using modern web technologies.",
       tech: ["React.js", "Node.js", "OpenAI API", "WebSockets"],
-      github: "#",
-      live: "#"
+      github: "https://github.com/adnanfrd/",
+      live: "https://barry-ai-three.vercel.app/"
     }
   ];
 
