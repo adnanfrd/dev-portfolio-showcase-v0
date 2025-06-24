@@ -82,7 +82,7 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="flex gap-4 justify-center mb-12 animate-fade-in">
+         <div className="flex flex-col md:flex-row gap-4 md:gap-6 justify-center mb-12 animate-fade-in">
             <Button asChild size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
               <a href="#projects" className="flex items-center gap-2">
                 View My Work
