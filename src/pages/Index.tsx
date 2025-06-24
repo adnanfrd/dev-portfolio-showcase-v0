@@ -264,8 +264,8 @@ const Index = () => {
       <footer className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="container mx-auto px-4 text-center relative">
-          <p className="text-lg">&copy; 2024 Developer Portfolio. Built with React.js and Lovable.</p>
-          <p className="text-slate-400 mt-2">Crafted with ❤️ for amazing user experiences</p>
+          <p className="text-lg">&copy; 2025 Adnan-developer Portfolio. Built with React.js and Lovable.</p>
+          <p className="text-slate-400 mt-2">Crafted with ❤️ by <span className="font-semibold text-purple-600">M Adnan Fareed</span></p>
         </div>
       </footer>
     </div>
