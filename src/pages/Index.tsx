@@ -71,9 +71,9 @@ const Index = () => {
       <section className="container mx-auto px-4 py-20 text-center relative">
         <div className="max-w-4xl mx-auto">
           <div className="animate-fade-in">
-            <h2 className="text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent leading-tight">
+            <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent leading-tight">
               Full Stack Developer
-            </h2>
+               </h2>
             <div className="relative">
               <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 leading-relaxed max-w-3xl mx-auto">
                 Passionate <span className="font-semibold text-blue-600">MERN stack developer</span> with expertise in building scalable web applications 
@@ -103,12 +103,12 @@ const Index = () => {
           
           <div className="flex gap-6 justify-center animate-fade-in">
             <Button variant="ghost" size="icon" asChild className="hover:bg-blue-100 dark:hover:bg-slate-800 hover:scale-110 transition-all duration-300 rounded-full">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/adnanfrd/" target="_blank" rel="noopener noreferrer">
                 <Github className="h-6 w-6" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hover:bg-blue-100 dark:hover:bg-slate-800 hover:scale-110 transition-all duration-300 rounded-full">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/adnanfrd/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-6 w-6" />
               </a>
             </Button>
@@ -119,9 +119,9 @@ const Index = () => {
       {/* About Section */}
       <section id="about" className="container mx-auto px-4 py-20 relative">
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent dark:from-white dark:to-slate-300">
+          <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent dark:from-white dark:to-slate-300">
             About Me
-          </h3>
+           </h3>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
@@ -170,9 +170,9 @@ const Index = () => {
       <section id="projects" className="container mx-auto px-4 py-20 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-50/30 to-purple-50/30 dark:from-slate-800/30 dark:to-slate-700/30 rounded-3xl"></div>
         <div className="max-w-6xl mx-auto relative">
-          <h3 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent dark:from-white dark:to-slate-300">
+          <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent dark:from-white dark:to-slate-300">
             Featured Projects
-          </h3>
+           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <Card key={index} className="group hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-white/20 dark:border-slate-700/50 overflow-hidden relative">
@@ -215,9 +215,9 @@ const Index = () => {
       {/* Contact Section */}
       <section id="contact" className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-4xl font-bold mb-8 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent dark:from-white dark:to-slate-300">
+          <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent dark:from-white dark:to-slate-300">
             Let's Work Together
-          </h3>
+           </h3>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-12 leading-relaxed">
             I'm always interested in new opportunities and exciting projects. 
             Whether you have a question or just want to say hi, feel free to reach out!
@@ -227,14 +227,14 @@ const Index = () => {
             <Card className="text-center p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 border border-blue-200/50 dark:border-blue-700/50">
               <Mail className="h-10 w-10 mx-auto mb-4 text-blue-600" />
               <h4 className="font-semibold mb-2 text-lg">Email</h4>
-              <p className="text-slate-600 dark:text-slate-300">your.email@example.com</p>
+              <p className="text-slate-600 dark:text-slate-300">adnanfrd.work@gmail.com</p>
             </Card>
             
             <Card className="text-center p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-800/50 dark:to-slate-700/50 border border-slate-200/50 dark:border-slate-600/50">
               <Github className="h-10 w-10 mx-auto mb-4 text-slate-800 dark:text-slate-200" />
               <h4 className="font-semibold mb-2 text-lg">GitHub</h4>
               <Button variant="link" asChild className="p-0 h-auto text-blue-600 hover:text-blue-700">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/adnanfrd/" target="_blank" rel="noopener noreferrer">
                   View Profile
                 </a>
               </Button>
@@ -244,7 +244,7 @@ const Index = () => {
               <Linkedin className="h-10 w-10 mx-auto mb-4 text-blue-600" />
               <h4 className="font-semibold mb-2 text-lg">LinkedIn</h4>
               <Button variant="link" asChild className="p-0 h-auto text-blue-600 hover:text-blue-700">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/adnanfrd/" target="_blank" rel="noopener noreferrer">
                   Connect
                 </a>
               </Button>
@@ -252,7 +252,7 @@ const Index = () => {
           </div>
 
           <Button size="lg" asChild className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-            <a href="mailto:your.email@example.com" className="flex items-center gap-2">
+            <a href="mailto:adnanfrd.work@gmail.com" className="flex items-center gap-2">
               <Mail className="h-5 w-5" />
               Send Message
             </a>
@@ -264,8 +264,8 @@ const Index = () => {
       <footer className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
         <div className="container mx-auto px-4 text-center relative">
-          <p className="text-lg">&copy; 2024 Developer Portfolio. Built with React.js and Lovable.</p>
-          <p className="text-slate-400 mt-2">Crafted with ❤️ for amazing user experiences</p>
+          <p className="text-lg">&copy; 2025 Developer Portfolio. Built with React.js and Lovable.</p>
+          <p className="text-slate-400 mt-2">Crafted with ❤️ by <span class="font-semibold text-purple-600">M Adnan Fareed</span></p>
         </div>
       </footer>
     </div>
